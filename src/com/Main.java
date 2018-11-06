@@ -19,7 +19,7 @@ public class Main {
             RenderingHints rH=new RenderingHints(null);
             rH.put(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_OFF);
             g2.setRenderingHints(rH);
-            Ellipse2D e3=new Ellipse2D.Double(150,50,100,100);git
+            Ellipse2D e3=new Ellipse2D.Double(150,50,100,100);
             g2.draw(e3);
         }
     }
